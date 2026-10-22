@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Not sure which category?
+    url: https://github.com/gomezzz/too-useful-not-to-build#categories
+    about: Pick the closest one. Labels can be changed afterwards.

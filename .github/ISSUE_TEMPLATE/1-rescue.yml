@@ -1,0 +1,63 @@
+name: "Rescue: Port, test or document legacy code"
+description: Why don't we just...? A rescue idea.
+title: "Why don't we just "
+labels: ["idea", "cat: rescue"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Why don't we just...
+      description: Finish the sentence. One or two lines is plenty.
+      placeholder: "...port the IDL photometry pipeline everyone still depends on to Python?"
+    validations:
+      required: true
+  - type: dropdown
+    id: blocker
+    attributes:
+      label: Why hasn't it happened yet?
+      multiple: true
+      options:
+        - No funding for the software work
+        - Too much effort for one person
+        - Nobody owns or maintains it
+        - Needs skills from another field
+        - Didn't seem feasible before
+        - Don't know
+  - type: dropdown
+    id: domain
+    attributes:
+      label: Domain
+      multiple: true
+      options:
+        - Astronomy
+        - Earth observation
+        - Planetary science
+        - Heliophysics
+        - Onboard / edge
+        - Mission operations
+        - Education and outreach
+        - Cross-domain
+  - type: textarea
+    id: users
+    attributes:
+      label: Prospective users
+      description: Who would use it? A community, a mission, a course, a lab.
+  - type: textarea
+    id: needed
+    attributes:
+      label: What would be needed?
+      description: Data, compute, domain expertise, validation, rough effort. Guesses are fine.
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Papers, existing tools (here or in other fields), datasets, specs. Links welcome.
+  - type: checkboxes
+    id: help
+    attributes:
+      label: Would you help?
+      options:
+        - label: Build it
+        - label: Test or validate it
+        - label: Provide data or domain knowledge
+        - label: Use it and give feedback
