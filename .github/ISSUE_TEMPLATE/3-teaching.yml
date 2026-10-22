@@ -55,10 +55,10 @@ body:
     validations:
       required: false
   - type: "textarea"
-    id: "ground_truth"
+    id: "references"
     attributes:
-      label: "Ground truth or reference"
-      description: "How would we know it works? A reference implementation, validation dataset, published results or expert judgement."
+      label: "Ground truth and references"
+      description: "How would we know it works, and what exists already? Reference implementations, validation datasets, published results, related tools here or in other fields. Links welcome."
       placeholder: "Telemetry from a real CubeSat pass to check the simulation is plausible; feedback from a pilot course."
     validations:
       required: false
@@ -74,19 +74,6 @@ body:
         - "Months: a small team"
         - "Years: a community or a funded project"
         - "No idea"
-  - type: "dropdown"
-    id: "blocker"
-    attributes:
-      label: "Why hasn't it happened yet?"
-      description: "Pick all that apply."
-      multiple: true
-      options:
-        - "No funding for the software work"
-        - "Too much effort for one person"
-        - "Nobody owns or maintains it"
-        - "Needs skills from another field"
-        - "Didn't seem feasible before"
-        - "Don't know"
   - type: "textarea"
     id: "needed"
     attributes:
@@ -94,19 +81,3 @@ body:
       description: "Data, compute, domain expertise, access, licences. Guesses are fine."
     validations:
       required: false
-  - type: "textarea"
-    id: "references"
-    attributes:
-      label: "Existing tools and references"
-      description: "What exists today, here or in other fields? Papers, repos, datasets, specs. Links welcome."
-    validations:
-      required: false
-  - type: "checkboxes"
-    id: "help"
-    attributes:
-      label: "Would you help?"
-      options:
-        - label: "Build it"
-        - label: "Test or validate it"
-        - label: "Provide data or domain knowledge"
-        - label: "Use it and give feedback"

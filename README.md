@@ -26,6 +26,8 @@ Writing software just got cheap. Tools the space and AI community shelved for la
 2. **Vote** with a 👍 reaction on every idea you would actually use. Ideas are ranked by 👍.
 3. **Comment** with references, data, or "I'd build this".
 
+Not sure what a good idea looks like? See the 📌 [example idea](https://github.com/gomezzz/too-useful-not-to-build/issues/1).
+
 <p align="center">
   <img src="qr-new-idea.png" alt="QR code linking to the new-idea page" width="200"><br>
   <sub>Scan to add an idea from your phone</sub>
