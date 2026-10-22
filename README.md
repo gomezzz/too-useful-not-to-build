@@ -35,13 +35,13 @@ Not sure what a good idea looks like? See the 📌 [example idea](https://github
 
 ## 🧭 Categories
 
-| | Category | What belongs here | Start |
-|---|---|---|---|
-| 🛟 | **Rescue** | Port, test or document legacy code | [New idea](https://github.com/gomezzz/too-useful-not-to-build/issues/new?template=1-rescue.yml) |
-| 🏗️ | **Infrastructure** | Benchmarks, loaders, converters, simulators | [New idea](https://github.com/gomezzz/too-useful-not-to-build/issues/new?template=2-infrastructure.yml) |
-| 🎓 | **Teaching** | Interactive papers, tutorials, outreach | [New idea](https://github.com/gomezzz/too-useful-not-to-build/issues/new?template=3-teaching.yml) |
-| 🌉 | **Bridges** | A tool another field already has | [New idea](https://github.com/gomezzz/too-useful-not-to-build/issues/new?template=4-bridges.yml) |
-| 🌌 | **Moonshots** | Research nobody could staff before | [New idea](https://github.com/gomezzz/too-useful-not-to-build/issues/new?template=5-moonshots.yml) |
+| | Category | What belongs here | Start | Browse |
+|---|---|---|---|---|
+| 🛟 | **Rescue** | Port, test or document legacy code | [New idea](https://github.com/gomezzz/too-useful-not-to-build/issues/new?template=1-rescue.yml) | [👍 Top voted](https://github.com/gomezzz/too-useful-not-to-build/issues?q=is%3Aissue+is%3Aopen+label%3A%22cat%3A+rescue%22+sort%3Areactions-%2B1-desc) |
+| 🏗️ | **Infrastructure** | Benchmarks, loaders, converters, simulators | [New idea](https://github.com/gomezzz/too-useful-not-to-build/issues/new?template=2-infrastructure.yml) | [👍 Top voted](https://github.com/gomezzz/too-useful-not-to-build/issues?q=is%3Aissue+is%3Aopen+label%3A%22cat%3A+infrastructure%22+sort%3Areactions-%2B1-desc) |
+| 🎓 | **Teaching** | Interactive papers, tutorials, outreach | [New idea](https://github.com/gomezzz/too-useful-not-to-build/issues/new?template=3-teaching.yml) | [👍 Top voted](https://github.com/gomezzz/too-useful-not-to-build/issues?q=is%3Aissue+is%3Aopen+label%3A%22cat%3A+teaching%22+sort%3Areactions-%2B1-desc) |
+| 🌉 | **Bridges** | A tool another field already has | [New idea](https://github.com/gomezzz/too-useful-not-to-build/issues/new?template=4-bridges.yml) | [👍 Top voted](https://github.com/gomezzz/too-useful-not-to-build/issues?q=is%3Aissue+is%3Aopen+label%3A%22cat%3A+bridges%22+sort%3Areactions-%2B1-desc) |
+| 🌌 | **Moonshots** | Research nobody could staff before | [New idea](https://github.com/gomezzz/too-useful-not-to-build/issues/new?template=5-moonshots.yml) | [👍 Top voted](https://github.com/gomezzz/too-useful-not-to-build/issues?q=is%3Aissue+is%3Aopen+label%3A%22cat%3A+moonshots%22+sort%3Areactions-%2B1-desc) |
 
 ## 🏷️ Labels
 
