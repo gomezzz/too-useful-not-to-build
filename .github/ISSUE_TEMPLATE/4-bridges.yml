@@ -3,62 +3,110 @@ description: "Bridges: a tool another field already has and we don't."
 title: "Why don't we just "
 labels: ["idea", "cat: bridges"]
 body:
-  - type: textarea
-    id: idea
+  - type: "markdown"
     attributes:
-      label: Why don't we just...
-      description: Finish the sentence. One or two lines is plenty.
+      value: "Only the first box is required. Fill in whatever else you can; rough guesses beat empty fields, and others can add detail in the comments."
+  - type: "textarea"
+    id: "idea"
+    attributes:
+      label: "Why don't we just..."
+      description: "Finish the sentence. One or two lines is plenty."
       placeholder: "...build the open telemetry dataset hub that computer vision has had for years?"
     validations:
       required: true
-  - type: dropdown
-    id: blocker
+  - type: "textarea"
+    id: "useful"
     attributes:
-      label: Why hasn't it happened yet?
+      label: "Why would it be useful?"
+      description: "What gets better, faster, cheaper or possible for the first time?"
+      placeholder: "Anomaly detection research stalls because every team collects private telemetry by hand. Shared datasets changed computer vision."
+    validations:
+      required: false
+  - type: "textarea"
+    id: "users"
+    attributes:
+      label: "Who would use it?"
+      description: "A community, a mission, a course, a lab. Roughly how many people?"
+      placeholder: "Operations engineers, anomaly detection researchers, mission teams."
+    validations:
+      required: false
+  - type: "dropdown"
+    id: "domain"
+    attributes:
+      label: "Domain"
+      description: "Pick all that apply."
       multiple: true
       options:
-        - No funding for the software work
-        - Too much effort for one person
-        - Nobody owns or maintains it
-        - Needs skills from another field
-        - Didn't seem feasible before
-        - Don't know
-  - type: dropdown
-    id: domain
+        - "Astronomy"
+        - "Earth observation"
+        - "Planetary science"
+        - "Heliophysics"
+        - "Onboard / edge"
+        - "Mission operations"
+        - "Education and outreach"
+        - "Cross-domain"
+        - "Other (say which in the idea)"
+  - type: "textarea"
+    id: "technology"
     attributes:
-      label: Domain
+      label: "What technology?"
+      description: "Languages, frameworks, models, hardware, standards or data formats it would build on."
+      placeholder: "Hugging Face-style dataset hub, Parquet, a common telemetry schema, baseline models."
+    validations:
+      required: false
+  - type: "textarea"
+    id: "ground_truth"
+    attributes:
+      label: "Ground truth or reference"
+      description: "How would we know it works? A reference implementation, validation dataset, published results or expert judgement."
+      placeholder: "Labelled anomalies from existing benchmarks (e.g. ESA-ADB) and operations anomaly reports."
+    validations:
+      required: false
+  - type: "dropdown"
+    id: "complexity"
+    attributes:
+      label: "How complex is it?"
+      description: "Your gut feeling for a first useful version, with today's tools including AI coding assistants."
+      multiple: false
+      options:
+        - "Days: a hackathon or a weekend"
+        - "Weeks: one person"
+        - "Months: a small team"
+        - "Years: a community or a funded project"
+        - "No idea"
+  - type: "dropdown"
+    id: "blocker"
+    attributes:
+      label: "Why hasn't it happened yet?"
+      description: "Pick all that apply."
       multiple: true
       options:
-        - Astronomy
-        - Earth observation
-        - Planetary science
-        - Heliophysics
-        - Onboard / edge
-        - Mission operations
-        - Education and outreach
-        - Cross-domain
-        - Other (say which in the idea)
-  - type: textarea
-    id: users
+        - "No funding for the software work"
+        - "Too much effort for one person"
+        - "Nobody owns or maintains it"
+        - "Needs skills from another field"
+        - "Didn't seem feasible before"
+        - "Don't know"
+  - type: "textarea"
+    id: "needed"
     attributes:
-      label: Prospective users
-      description: Who would use it? A community, a mission, a course, a lab.
-  - type: textarea
-    id: needed
+      label: "What would be needed?"
+      description: "Data, compute, domain expertise, access, licences. Guesses are fine."
+    validations:
+      required: false
+  - type: "textarea"
+    id: "references"
     attributes:
-      label: What would be needed?
-      description: Data, compute, domain expertise, validation, rough effort. Guesses are fine.
-  - type: textarea
-    id: references
+      label: "Existing tools and references"
+      description: "What exists today, here or in other fields? Papers, repos, datasets, specs. Links welcome."
+    validations:
+      required: false
+  - type: "checkboxes"
+    id: "help"
     attributes:
-      label: References
-      description: Papers, existing tools (here or in other fields), datasets, specs. Links welcome.
-  - type: checkboxes
-    id: help
-    attributes:
-      label: Would you help?
+      label: "Would you help?"
       options:
-        - label: Build it
-        - label: Test or validate it
-        - label: Provide data or domain knowledge
-        - label: Use it and give feedback
+        - label: "Build it"
+        - label: "Test or validate it"
+        - label: "Provide data or domain knowledge"
+        - label: "Use it and give feedback"
