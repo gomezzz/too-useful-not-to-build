@@ -1,5 +1,5 @@
 name: "Moonshots: Research nobody could staff before"
-description: Why don't we just...? A moonshots idea.
+description: "Moonshots: research nobody could staff before."
 title: "Why don't we just "
 labels: ["idea", "cat: moonshots"]
 body:
@@ -8,7 +8,7 @@ body:
     attributes:
       label: Why don't we just...
       description: Finish the sentence. One or two lines is plenty.
-      placeholder: "...port the IDL photometry pipeline everyone still depends on to Python?"
+      placeholder: "...reproduce every paper in our field from its data and methods section alone?"
     validations:
       required: true
   - type: dropdown
@@ -37,6 +37,7 @@ body:
         - Mission operations
         - Education and outreach
         - Cross-domain
+        - Other (say which in the idea)
   - type: textarea
     id: users
     attributes:

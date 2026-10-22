@@ -1,5 +1,5 @@
 name: "Teaching: Interactive papers, tutorials, outreach"
-description: Why don't we just...? A teaching idea.
+description: "Teaching: interactive papers, tutorials, outreach."
 title: "Why don't we just "
 labels: ["idea", "cat: teaching"]
 body:
@@ -8,7 +8,7 @@ body:
     attributes:
       label: Why don't we just...
       description: Finish the sentence. One or two lines is plenty.
-      placeholder: "...port the IDL photometry pipeline everyone still depends on to Python?"
+      placeholder: "...give students a mission simulator they are allowed to break?"
     validations:
       required: true
   - type: dropdown
@@ -37,6 +37,7 @@ body:
         - Mission operations
         - Education and outreach
         - Cross-domain
+        - Other (say which in the idea)
   - type: textarea
     id: users
     attributes:

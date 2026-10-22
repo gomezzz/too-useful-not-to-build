@@ -1,5 +1,5 @@
 name: "Rescue: Port, test or document legacy code"
-description: Why don't we just...? A rescue idea.
+description: "Rescue legacy code: port it, test it or document it."
 title: "Why don't we just "
 labels: ["idea", "cat: rescue"]
 body:
@@ -37,6 +37,7 @@ body:
         - Mission operations
         - Education and outreach
         - Cross-domain
+        - Other (say which in the idea)
   - type: textarea
     id: users
     attributes:
